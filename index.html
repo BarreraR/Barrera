@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raul Barrera</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header contains name navigation bar-->
+      <header>
+        <h1>
+          Raul Barrera, Jr.
+          <br />
+          <span id="subtext">Software Developer</span>
+        </h1>
+      </header>
+
+      <!-- Main contains self introduction, an about, and contact information -->
+      <main>
+        <!-- Nav -->
+        <nav>
+          <div>
+            <a href="#intro">Intro</a>
+          </div>
+          <div>
+            <a href="#about">About Me</a>
+          </div>
+          <div class="dropdown">
+            <a id="project_nav" href="#projects">Projects</a>
+            <div id="projects_dropdown">
+              <a href="#project-one">Language Spaced Repetition</a>
+              <a href="#project-two">Gainz</a>
+              <a href="#project-three">Vague Quiz</a>
+            </div>
+          </div>
+          <div>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+        
+        <!-- Introduction -->
+        <article id="intro">
+          <div class="group">
+            <div class="item">
+              <img src="images/raul.jpg" alt="Raul Portfolio Pic" />
+            </div>
+
+            <div class="item">
+              <h2>Thanks for stopping by! I'm Raul Barrera, Jr.</h2>
+              <p>I am a software developer living in Kenosha, Wisconsin.</p>
+              <p>
+                With numerous distinctive employment positions throughout the
+                years, I am ready to bring an array of skillsets to the
+                development sector. Such employment includes:
+              </p>
+              <ul>
+                <li>Computer Science Research intern</li>
+                <li>Business owner of RB Express Inc.</li>
+                <li>Crew member in fast food</li>
+                <li>Warehouse worker in Amazon</li>
+              </ul>
+              <p>My hobbies include:</p>
+              <ul>
+                <li>Helping others with computer problems</li>
+                <li>Challenging myself to learn new skills</li>
+                <li>Weightlifting</li>
+              </ul>
+              <p>
+                Feel free to
+                <a href="mailto:rbarrera1992@gmail.com" target="_blank"
+                  >contact me!</a
+                >
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- About -->
+        <article id="about">
+          <h2>About Raul</h2>
+          <div class="group">
+            <div class="item item-double">
+              <p>
+                After graduating from UW Parkside with a degree in Computer
+                Science, I opened a trucking company as the sole owner. This was
+                a new and challenging experience, however, it did not feel like
+                the right fit for me. After all, the reason I had even chosen
+                computer science as my major was the result of the joy I felt
+                creating my first programs in Qbasic back in high school. The
+                feeling of accomplishment I got after finally getting the
+                computer to do what I wanted was great!
+              </p>
+
+              <p>
+                If you are looking for a new addition to your developer team,
+                please keep me in mind. Although my research internship was a
+                collaboration between 3 people, I also have experience in an
+                agile development setting using SCRUM from a university final
+                project. I recall how exciting the group projects were and can
+                not wait to repeat the experience of building great software
+                together!
+              </p>
+            </div>
+            <div class="item">
+              <img src="images/dual_screen.jpg" alt="Dual Screen Programming" />
+              <hr />
+              <h3>Services Provided</h3>
+              <ul>
+                <li>Java, HTML, CSS, JS</li>
+                <li>Full Stack Development</li>
+                <li>Agile Development</li>
+                <li>IDEs: Eclipse, Netbeans, VS Code</li>
+                <li>OS: Windows, Linux</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article id="projects">
+          <h2>Projects</h2>
+          <div class="group">
+            <div class="item" id="project-one">
+              <img
+                src="images/spaced_repetion.jpg"
+                alt="Spaced Repetition App"
+              />
+              <h3>Language Spaced Repetition</h3>
+              <p>
+                This app uses spaced repetition to help users learn a new
+                language.
+              </p>
+              <div class="stack">
+                <h4>Stack Used</h4>
+                <ul>
+                  <li>ReactJS</li>
+                  <li>Node</li>
+                  <li>PostgreSQL</li>
+                  <li>CSS</li>
+                  <li>Express</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <p>
+                  <a
+                    href="https://github.com/BarreraR/spaced-repetition"
+                    target="_blank"
+                    >GitHub Link</a
+                  >
+                </p>
+
+                <p>
+                  <a
+                    href="https://spaced-repetition-language-game.vercel.app/"
+                    target="_blank"
+                    >Project Live Link</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="item" id="project-two">
+              <img src="images/gainz.jpg" alt="Gainz App" />
+              <h3>Gainz</h3>
+              <p>
+                Gainz allows users to store their workouts and aids them in
+                tracking their progress. Primary users are weightlifters.
+              </p>
+              <div class="stack">
+                <h4>Stack Used</h4>
+                <ul>
+                  <li>Node</li>
+                  <li>PostgreSQL</li>
+                  <li>ReactJS</li>
+                  <li>CSS</li>
+                  <li>Express</li>
+                </ul>
+              </div>
+              <div class="project-links" id="project-three">
+                <p>
+                  <a
+                    href="https://github.com/BarreraR/gainz-client"
+                    target="_blank"
+                    >GitHub Link</a
+                  >
+                </p>
+                <p>
+                  <a href="https://gainz.vercel.app/" target="_blank"
+                    >Project Live Link</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/vague_quiz.jpg" alt="Vague Quiz App" />
+              <h3>Vague Quiz</h3>
+              <p>
+                A simple vague quiz with random questions and silly answers. The
+                application is intended as jQuery practice.
+              </p>
+              <div class="stack">
+                <h4>Stack Used</h4>
+                <ul>
+                  <li>jQuery</li>
+                  <li>CSS</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <p>
+                  <a href="https://github.com/BarreraR/quiz-app" target="_blank"
+                    >GitHub Link</a
+                  >
+                </p>
+                <p>
+                  <a href="https://barrerar.github.io/quiz-app/" target="_blank"
+                    >Project Live Link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Methods of contact-->
+        <article id="contact">
+          <div class="group">
+            <div class="item">
+              <h2>Contact Raul</h2>
+              <p>
+                Do not hesitate to reach out to me with through the following
+                media:
+              </p>
+              <!-- Order list contains LinkedIn and Github link -->
+              <ol>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/raulbarrera92"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/BarreraR" target="_blank"
+                    >GitHub</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:rbarrera1992@gmail.com">Email</a>
+                </li>
+              </ol>
+            </div>
+            <div class="item">
+              <div id="email-form">
+                <form action="https://formspree.io/mgengrkq" method="POST">
+                  <label for="user-name"> Your Name (Optional):</label>
+                  <input
+                    id="user-name"
+                    type="text"
+                    name="name"
+                    placeholder="Enter your full name"
+                  />
+
+                  <label for="user-email">Your email:</label>
+                  <input
+                    id="user-email"
+                    type="email"
+                    name="email"
+                    placeholder="your_email@gmail.com"
+                    required
+                  />
+
+                  <label for="user-message">Your message:</label>
+                  <textarea
+                    id="user-message"
+                    name="message"
+                    placeholder="Enter your message"
+                    required
+                  ></textarea>
+                  <button type="submit">Send</button>
+                  <button type="reset">Clear</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </article>
+      </main>
+
+      <!-- Footer contains copyright-->
+      <footer>
+        <p>&#169; 2021 Raul Barrera, Jr.</p>
+      </footer>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
